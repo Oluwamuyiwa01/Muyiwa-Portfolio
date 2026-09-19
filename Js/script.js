@@ -58,22 +58,33 @@ window.addEventListener('scroll', () =>{
 //SCROLL REVEAL
 
 const sr = ScrollReveal({
-    distance: "45px",
+    distance: "20px",
     duration: 2700,
-    reset: true
+    reset:true
 });
 
 sr.reveal('.hero-left-side', {
-    delay:350, origin: 'left'
-})
-sr.reveal('.hero-right-side', {
-    delay:350, origin: 'right'
-})
+    delay: 200,
+    origin: 'top'
+});
 
-sr.reveal('#about, #skills, #projects, #research, #resume, #contact , .site-footer', {
-    delay:200,
-    origin:'bottom'
-})
+sr.reveal('.hero-right-side', {
+    delay: 200,
+    origin: 'bottom'
+});
+
+sr.reveal('#about, #skills, #research, #resume, #contact', {
+    delay: 200,
+    origin: 'bottom'
+});
+
+sr.reveal('.project-card, .research-area-card', {
+    delay: 200,
+    interval: 600,
+    origin: 'bottom'
+});
+
+
 
 
 
