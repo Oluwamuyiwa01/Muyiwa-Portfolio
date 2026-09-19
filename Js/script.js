@@ -80,7 +80,7 @@ sr.reveal('#about, #skills, #research, #resume, #contact', {
 
 sr.reveal('.project-card, .research-area-card', {
     delay: 200,
-    interval: 600,
+    interval: 400,
     origin: 'bottom'
 });
 
