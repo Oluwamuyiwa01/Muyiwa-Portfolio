@@ -78,9 +78,9 @@ sr.reveal('#about, #skills, #research, #resume, #contact', {
     origin: 'bottom'
 });
 
-sr.reveal('.project-card, .research-area-card', {
-    delay: 50,
-    interval: 100,
+sr.reveal('.project-card', {
+    delay: 200,
+    interval: 400,
     origin: 'bottom'
 });
 
