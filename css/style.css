@@ -47,7 +47,6 @@ html{
 img{
     max-width: 100%;
 }
-
 body{
     background:var(--bg);
     color:var(--text);
@@ -769,5 +768,9 @@ section h2{
     }
     .site-footer{
         padding-top:1.5rem;
+    }
+
+    .hide{
+        display: none;
     }
 }
